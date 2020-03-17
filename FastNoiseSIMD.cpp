@@ -74,6 +74,8 @@
 #include "inttypes.h"
 #endif
 
+#pragma unmanaged
+
 int FastNoiseSIMD::s_currentSIMDLevel = -1;
 
 #ifdef FN_ARM

@@ -51,3 +51,5 @@
 #define SIMD_LEVEL FN_AVX512
 #include "FastNoiseSIMD_internal.cpp"
 #endif
+
+#pragma unmanaged

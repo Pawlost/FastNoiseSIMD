@@ -50,7 +50,7 @@
 #define SIMD_LEVEL_CLASS FastNoiseSIMD_internal::FASTNOISE_SIMD_CLASS(SIMD_LEVEL)
 
 #if defined(_WIN32) && SIMD_LEVEL > FN_NO_SIMD_FALLBACK
-#define VECTORCALL __vectorcall
+#define VECTORCALL __stdcall
 #else
 #define VECTORCALL
 #endif

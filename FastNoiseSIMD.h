@@ -28,6 +28,8 @@
 
 // VERSION: 0.7.0
 
+#pragma unmanaged
+
 #ifndef FASTNOISE_SIMD_H
 #define FASTNOISE_SIMD_H
 
